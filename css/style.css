@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+    color: rgb(230, 230, 230);
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+    background-color: #003434;
+}
+
+.menu{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: white;
+    font-size: 2rem;
+    display: block;
+    padding: 1.5rem 8.1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+ }
+
+ .menu ul ul li {
+    background-color: black;
+     display: block;
+    }
+
+ .menu ul li:hover ul {
+       display:block;
+    }
+
+.textActive {    
+    color: #0DF205 !important;
+}
+
+a{
+    color: #0DF205;
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1rem;
+	word-spacing: 1.5rem;
+    margin: 4rem;
+    padding: 2rem;
+}
+
+h2{
+    font-size: 2.8rem;
+    font-weight: 590;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 590;
+    padding: 1rem;
+    margin-left: 4rem;
+}
+
+h4{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h1, h2, h3, h4{
+        color: rgb(221, 221, 221);
+}
+p{
+    color: rgb(230, 230, 230);
+    font-size: 1.5rem;
+    letter-spacing: 0.2px;
+	word-spacing: 3px;
+    background-color: #006A6B;
+    padding: 2rem;
+}
+
+div{
+    color: rgb(230, 230, 230);
+    font-size: 1.5rem;
+    letter-spacing: 0.2px;
+	word-spacing: 2px;
+    padding: 1rem;
+}
+
+ul{
+    padding: 10px 40px;
+    margin-left: 5rem;
+}
+
+header{
+    height: 30vh;
+}
+
+#logo{
+    float: left;
+    height: 30vh;
+}
+
+#comentarios{
+    float: left;
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#ofertas{
+    float: right;
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid 5px  rgb(194, 194, 194);
+}
+
+#noticias{
+    clear: both;
+}
+
+.productoIzq{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.productoDer{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section article ul li{
+    color: #cbd4ce;
+    font-size: 1.5rem;
+    letter-spacing: 0.2px;
+	word-spacing: 3px;
+}
+
+section article ul li b{
+    color: #cbd4ce;
+    font-size: 1.5rem;
+    letter-spacing: 0.2px;
+	word-spacing: 3px;
+}
+
+form{
+    color: rgb(230, 230, 230);
+    font-weight: 500;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+input{
+    color: #141414;
+}
+
+select{
+    color: black;
+}
+
+option{
+    color: black;
+}
+
+footer{
+    background-color: black;
+}
+
+footer section ul{
+    list-style: none;
+}
+
+footer section ul li{
+    color: #cbd4ce;
+    font-size: 1.5rem;
+}
+
+footer section h4{
+    color: #cbd4ce;
+    font-size: 1.8rem;
+}
+
+.textCenter{
+	text-align: center; 
+}
+
+footer iframe{
+    margin: 20px;
+}
+
+footer h4{
+    padding: 10px;
+    margin-left: 40px;
+}
