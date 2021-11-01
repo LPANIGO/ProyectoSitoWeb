@@ -48,15 +48,15 @@ body{
 .menu ul ul {
     position: absolute;
     display: none;
- }
+}
 
- .menu ul ul li {
+.menu ul ul li {
     background-color: black;
-     display: block;
+    display: block;
     }
 
- .menu ul li:hover ul {
-       display:block;
+.menu ul li:hover ul {
+    display:block;
     }
 
 .textActive {    
@@ -79,7 +79,7 @@ h1{
 }
 
 h2{
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     font-weight: 590;
     margin: 2rem;
     padding: 1rem;
@@ -100,12 +100,12 @@ h4{
 h1, h2, h3, h4{
         color: rgb(221, 221, 221);
 }
+
 p{
     color: rgb(230, 230, 230);
     font-size: 1.5rem;
     letter-spacing: 0.2px;
 	word-spacing: 3px;
-    background-color: #006A6B;
     padding: 2rem;
 }
 
@@ -126,20 +126,80 @@ header{
     height: 30vh;
 }
 
+header form{
+    display: inline-block;
+    margin: 80px 50px;
+    padding: 2rem; 
+}
+header form input{
+    padding: 8px;
+}
+
+header div{
+    margin: 88px 100px 10px 10px;
+}
+
+form{
+    margin: 5vh 35vh 20vh 10vh;
+}
+
+form fieldset{
+    padding: 2vh 10vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+form fieldset input{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+form fieldset label{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+form fieldset select{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+form label{
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+form input{
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+#buscador{
+    width: 45vw;
+}
+
+#boton-buscar{
+    width: 12vw;
+}
+
 #logo{
     float: left;
     height: 30vh;
 }
 
 #comentarios{
-    float: left;
+    float: right;
     width: 40%;
     padding: 20px;
     box-sizing: border-box;
 }
 
+#comentarios p{
+    background-color: #006A6B;
+}
+
 #ofertas{
-    float: right;
+    float: left;
     width: 60%;
     padding: 20px;
     box-sizing: border-box;
@@ -150,18 +210,31 @@ header{
     clear: both;
 }
 
-.productoIzq{
+.producto-izq{
     float: left;
     width: 50%;
     padding: 10px;
     box-sizing: border-box;
 }
 
-.productoDer{
+.producto-der{
     float: right;
     width: 50%;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.float-izquierda{
+    float: left;
+}
+
+.float-derecha{
+    float: right;
+}
+
+
+.text-center{
+	text-align: center; 
 }
 
 section article ul li{
@@ -215,10 +288,6 @@ footer section ul li{
 footer section h4{
     color: #cbd4ce;
     font-size: 1.8rem;
-}
-
-.textCenter{
-	text-align: center; 
 }
 
 footer iframe{
